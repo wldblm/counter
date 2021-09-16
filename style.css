@@ -1,8 +1,36 @@
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+}
+
+.container {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -150%);
+}
+
+body{
+  background-color: #F1F1F1F1;
+}
+
+h1{
+  font-size: 50px;
+}
+
+button {
+  padding:1em 2em;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  border-radius: 15px;
+  border:5px #2c3e50bd solid;
+  background-color:ghostwhite;
+  text-transform: uppercase;
+  font-weight: 500;
 }
